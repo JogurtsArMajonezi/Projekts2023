@@ -73,10 +73,18 @@ a:visited{
 }
 /*formas pozicionēšana*/
 .login{
-    position:relative;
-    width: 500px;
+    position: relative;
+    width: 350px;
     height: 300px;
     background-color: azure;
     margin: 0 auto;
-    top:200px;
+    top: 200px;
+}
+.loginlogs{
+    margin: 0 auto;
+    margin-left: 10px;
+}
+.logininputs{
+    margin-top: 10px;
+    font-size: 20pt;
 }
