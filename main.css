@@ -71,3 +71,12 @@ a:visited{
 #NowButton{
     background-color:#4A2040;
 }
+/*formas pozicionēšana*/
+.login{
+    position:relative;
+    width: 500px;
+    height: 300px;
+    background-color: azure;
+    margin: 0 auto;
+    top:200px;
+}
