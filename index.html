@@ -28,12 +28,23 @@
         </div>
         <div id="content">
             <div class="login">
-                <form class="loginlogs">
-                    <input class="logininputs" placeholder="login"/>
-                    <input class="logininputs" placeholder="password"/>
-                    <button class="logininputs">LOG IN</button>
+                <form action="proc.php" method="POST">
+                    <input name="login" class="logininputs" placeholder="login"/>
+                    <input name="password" class="logininputs" placeholder="password"/>
+                    <button class="logininputs" type="submit">LOG IN</button>
                 </form>
             </div>
+            <div id="content">
+                <div class="login">
+                    <form action"add.php">
+                        <input name="name" class="logininputs" placeholder="name"/>
+                        <input name="sname" class="logininputs" placeholder="sname"/>
+                        <input name="login" class="logininputs" placeholder="login"/>
+                        <input name="password" class="logininputs" placeholder="password"/>
+                        <button class="logininputs" type="submit">LOG IN</button>
+                    </form>
+                </div>
+            </div> 
         </div>
     </div>
 </body>
